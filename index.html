@@ -28,9 +28,49 @@
                 <p>
                     You know you want to. Sign up today to get started and take the first step toward something great.
                 </p>
+                
             </section>
-            <section class="form-section"></section>
-            <div class="form-footer"></div>
+            <section class="form-section">
+                <h2>Let's do this!</h2>
+                <form action="#" method="post" id="signup-form">
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+
+                </form>
+
+            </section>
+            <div class="form-footer">
+                <button id="create-account" type="submit" form="signup-form">Create Account</button>
+
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </main>
     </div>
 
