@@ -153,3 +153,13 @@ body {
     font-weight: 600;
     line-height: 1.5;
 }
+
+#password-error {
+    color: #dc2626;
+    font-size: 12px;
+    margin: 5px 0 0;
+}
+
+.error {
+    border: 1px solid #dc2626 !important;
+}
