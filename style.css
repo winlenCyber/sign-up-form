@@ -32,6 +32,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+    margin-bottom: 60%;
 }
 
 .logo-section img {
